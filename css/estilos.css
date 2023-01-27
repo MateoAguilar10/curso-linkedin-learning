@@ -1,0 +1,85 @@
+html, body{
+    margin: 0;
+    color: #000;
+    font-size: 1rem;
+    font-family: 'Roboto' , 'sans-serif';
+}
+p{
+    margin: 0;
+}
+
+/*PARALLAX*/
+
+.contenido{
+    position: relative;
+    background-attachment: fixed;
+}
+#contenido1{
+    background-image: url(../imagenes/15357864-internet-fondo-con-código-binario.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#contenido1 h1{
+    position: absolute;
+    margin: auto;
+    display: block;
+    left: 0;right: 0;top: 0;bottom: 0;
+    text-align: center;
+    height: 30px;
+}
+#contenido3{
+    background-image: url(../imagenes/informacion-economica-ejecutivos-negociando-fondo_1098-2568.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#contenido4{
+    
+}
+#contenido5{
+    background-image: url(../imagenes/3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#contenido5 p{
+    padding-top: 20vh;
+}
+
+/*DISEÑO*/
+
+#contenido1 h1{
+    color: white;
+    text-shadow: 0px 0px 14px rgba(0, 0, 0, 0.75);
+}
+#contenido2{
+    box-shadow: inset 0px 0px 14px rgb(0, 0, 0, 0.75);
+}
+#contenido2 p{
+    padding: 20px 40px;
+    font-size: 0.8;
+    font-weight: 300;
+}
+#contenido4{
+    box-shadow: inset 0px 10px 10px rgb(0, 0, 0, 0.75);
+    background-color: beige;
+}
+#contenido4 p{
+    padding: 20px 40px;
+    font-size: 0.8;
+    font-weight: 300;
+}
+#contenido5 p span{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    background-color: rgba(8, 8, 42, 0.75);
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    box-shadow: inset 0px 10px 10px rgb(0, 0, 0, 0.3);
+}
